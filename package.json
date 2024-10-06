@@ -1,0 +1,36 @@
+{
+  "name": "units-conversion",
+  "version": "1.0.0",
+  "description": "A web-browser tool for converting milliters",
+  "main": "js/main.js",
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "collectCoverage": true,
+    "coverageDirectory": "coverage",
+    "collectCoverageFrom": [
+      "js/**/*.js",                       
+      "!js/**/*.test.js" 
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Thee-Hector-Genaro-Pacheco"
+  },
+  "keywords": [
+    "unit-conversion",
+    "milliliters",
+    "tsp",
+    "tbsp",
+    "cups"
+  ],
+  "author": "Hector Pacheco",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  }
+}
